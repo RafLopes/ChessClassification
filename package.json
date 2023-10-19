@@ -1,0 +1,23 @@
+{
+  "name": "infoplayerserbo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js && node result2csv.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allsettled-polyfill": "^1.0.4",
+    "chess-web-api": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "promise": "^8.1.0",
+    "promise.allsettled": "^1.0.4",
+    "promises": "^0.2.5",
+    "ansi-colors": "^4.1.3",
+    "cli-progress": "^3.11.2",
+    "json2csv": "^5.0.7"
+  }
+}
